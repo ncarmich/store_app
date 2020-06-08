@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Product Store Messages</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="popUp" class= "popUp" onclick="hide(this)">
+</div>
+    <div id="orange" class="product" onmouseover="colorO(this)" onmouseout="normal(this)"onclick="hide(this);showO()" >
+      <img src="https://icon2.kisspng.com/20180308/wlw/kisspng-south-africa-blood-orange-mandarin-orange-tangelo-south-africa-imports-of-oranges-5aa10d936cc6c7.6226563815205042114456.jpg"  alt="rng" />
+    </div>
+    
+    <div class="product" id="banana"
+         onmouseover="colorG(this)" onmouseout="normal(this)"onclick="hide(this);showB()">
+      <img  src="https://icon2.kisspng.com/20180125/cyq/kisspng-banana-powder-fruit-cavendish-banana-banana-5a6a705e555d06.3110857015169250223497.jpg" alt="bnna" />
+    </div>
+    
+    <div class="product" id="apple"onmouseover="colorR(this)" onmouseout="normal(this)"onclick="hide(this);showA()">
+      <img  src="https://banner2.kisspng.com/20180310/jyw/kisspng-plum-tomato-apple-fuji-vector-two-apples-5aa49732abbf96.2950483615207360507035.jpg" alt="appl" />
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
